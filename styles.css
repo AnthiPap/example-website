@@ -1,0 +1,156 @@
+body {
+  font-family: "PT serif";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT serif";
+}
+
+p {
+  color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "PT serif";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #010101;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #010101;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  height: 200px;
+}
+
+.navbar-brand {
+  font-family: "PT serif";
+  font-size: 2.5rem;
+  font-weight: bold;
+  float: right;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "PT serif";
+  float: right;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: left;
+  background-image: url("../images/marble.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+#wrapper {
+}
+
+.title-image {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 0;
+  right: 100px;
+  margin: auto;
+  width: 80%
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #010101;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title-image-two {
+  float: left;
+  width: 50%
+}
+
+.testimonial-image {
+  width: 50%;
+  border-radius: 100%;
+}
+
+
+/* CTA Section */
+
+.cta-image {
+  width: 500px;
+  height: auto;
+}
+
+.about-us {
+  position: relative;
+  float: left;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+  height: 2rem;
+}
+
+.social-icon:hover {
+  color: black;
+}
+
+
+.footer {
+  margin-top: 9px;
+  background-image: url("../images/marble.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
