@@ -1,2 +1,2 @@
 # exampleWebsite
-Very basic example of a static website. Can be found at https://allurebags.neocities.org/
+Very basic example of a static website. You can view it here: https://allurebags.neocities.org/
